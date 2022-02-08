@@ -9,7 +9,7 @@
     "test:watch": "jest --watch"
   },
   "files": ["dist/**/*"],
-  "author": "",
+  "author": "Patt-tom McDonnell <contact@mcdonnell.pt>",
   "license": "MIT",
   "dependencies": {
     "better-sqlite3": "^7.5.0",
