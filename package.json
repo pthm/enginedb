@@ -1,0 +1,28 @@
+{
+  "name": "enginedb",
+  "version": "1.0.0",
+  "description": "A package for interacting with a EngineDJ / EngineOS database",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "files": ["dist/**/*"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^7.5.0",
+    "node-id3": "^0.2.3",
+    "sharp": "^0.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.15",
+    "@types/sharp": "^0.29.5",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.0",
+    "typescript": "^4.5.5",
+    "ts-node": "^10.5.0",
+    "ts-jest": "^27.1.3"
+  }
+}
